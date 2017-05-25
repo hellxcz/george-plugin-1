@@ -1,0 +1,14 @@
+{
+    "key":"value",
+    "transactionItemButton": "Get counteroffer",
+    "questionaireModal" : {
+        "firstName": "First Name:",
+        "lastName": "Last Name:",
+        "address": "Address:",
+        "annualUtilityExpense": "Annual utility expense:",
+        "currentUtilityPlan": "Current utility plan:",
+        "cancel": "Cancel",
+        "ok": "Send email"
+
+    }
+}
