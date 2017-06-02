@@ -13,8 +13,8 @@ var port = $.util.env.port || 1337;
 var src = 'src/';
 var dist = 'dist/';
 
-//var sandboxFolder = '../georgesandbox-master/sandboxStatic/plugins/testPlugin';
-var sandboxFolder = false;
+var sandboxFolder = '../georgesandbox-master/sandboxStatic/plugins/testPlugin';
+// var sandboxFolder = false;
 
 var autoprefixerBrowsers = [
   'ie >= 9',

@@ -19,20 +19,20 @@ george.app.module('plugins.PI-TRANSACTION-BUTTON', {
 
               var hasUtilityBill = model.attributes.categories.some((item) => {
 
-                  return item.subCategory == 'UTILITY_BILLS'
-
+                  // return item.subCategory == 'UTILITY_BILLS'
+                  return item.subCategory == 'SAVINGS_INVESTMENT_INCOME'
               });
 
-              // if (!hasUtilityBill){
-              //   return;
-              // }
-
-              // console.log('got UTILITY_BILLS');
+              if (!hasUtilityBill){
+                return;
+              }
 
               // view.$('.transaction-icons').append('<span class="clickOnMe btn btn-lg btn-default clickable">' + btnTranslation + '</span>');
 
-              var chunk = `<span class="clickOnMe btn btn-lg btn-default clickable" title="` + btnTranslation + `">
-              <svg class="ico-star ic-md"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ico-star"></use></svg>
+              var chunk = `<span class="clickOnMe btn btn-lg btn-info btn-default clickable" title="` + btnTranslation + `">
+              <svg class="ico-watchdog ic-md">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ico-watchdog"></use>
+              </svg>
               </span>`
 
               view.$('.transaction-icons').append(chunk);
