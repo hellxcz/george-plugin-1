@@ -1,6 +1,6 @@
 {
   "name": "modern-backbone-starterkit",
-  "version": "0.3.0",
+  "version": "0.0.1",
   "description": "Lightweight starting point for a modern backbone web app.",
   "keywords": [
     "backbone",
@@ -21,11 +21,11 @@
     "test": "./node_modules/.bin/wdio wdio.conf.js",
     "help": "./node_modules/.bin/wdio --help"
   },
-  "author": "@sabarasaba <rivasign@gmail.com>",
+  "author": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sabarasaba/modern-backbone-starterkit.git"
+    "url": ""
   },
   "devDependencies": {
     "babel-core": "^6.1.2",
@@ -57,7 +57,6 @@
     "wdio-selenium-standalone-service": "0.0.8",
     "wdio-spec-reporter": "^0.1.0",
     "webdriverio": "^4.8.0",
-    "webdriverjs": "^1.7.5",
     "webpack": "^1.12.3",
     "webpack-dev-middleware": "^1.0.11",
     "webpack-stream": "^2.1.1"
